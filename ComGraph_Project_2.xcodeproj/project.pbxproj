@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		04BD66B720AD1C4C002AC3EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04BD66B620AD1C4C002AC3EE /* main.cpp */; };
+		04BD66BF20AD1C5D002AC3EE /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BD66BE20AD1C5D002AC3EE /* OpenGL.framework */; };
+		04BD66C120AD1C64002AC3EE /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BD66C020AD1C64002AC3EE /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		04BD66B320AD1C4C002AC3EE /* ComGraph_Project_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ComGraph_Project_2; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BD66B620AD1C4C002AC3EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		04BD66BE20AD1C5D002AC3EE /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		04BD66C020AD1C64002AC3EE /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BD66C120AD1C64002AC3EE /* GLUT.framework in Frameworks */,
+				04BD66BF20AD1C5D002AC3EE /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +49,7 @@
 			children = (
 				04BD66B520AD1C4C002AC3EE /* ComGraph_Project_2 */,
 				04BD66B420AD1C4C002AC3EE /* Products */,
+				04BD66BD20AD1C5D002AC3EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +67,15 @@
 				04BD66B620AD1C4C002AC3EE /* main.cpp */,
 			);
 			path = ComGraph_Project_2;
+			sourceTree = "<group>";
+		};
+		04BD66BD20AD1C5D002AC3EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04BD66C020AD1C64002AC3EE /* GLUT.framework */,
+				04BD66BE20AD1C5D002AC3EE /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
